@@ -1,4 +1,6 @@
-Flask
-pandas
-selenium
-webdriver-manager
+Flask==2.3.2
+pandas==2.0.3
+selenium==4.10.0
+webdriver-manager==3.8.6
+openpyxl==3.1.2
+gunicorn==21.2.0
