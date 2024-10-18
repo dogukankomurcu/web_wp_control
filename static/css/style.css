@@ -1,0 +1,345 @@
+<<<<<<< HEAD
+/* Genel ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2c2c;
+    color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex; /* Flexbox kullan */
+    flex-direction: column; /* Dikey hizalama */
+    justify-content: center; /* İçerikleri dikey ortala */
+    align-items: center; /* İçerikleri yatay ortala */
+    min-height: 400px; /* Minimum yükseklik ekle, isteğe bağlı */
+}
+
+.form-container form {
+    display: flex; /* Flexbox kullan */
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* Ortada durma */
+}
+
+.form-container .form-label,
+.form-container .form-control,
+.form-container .btn-custom {
+    width: 100%; /* Elemanları genişlet */
+    max-width: 400px; /* Elemanların maksimum genişliği */
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 50px; /* Başlık altına boşluk ekle */
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #b3b3b3;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.custom-file-input {
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #2a2a2a;
+    color: #b3b3b3;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.custom-file-input:focus {
+    border-color: #28a745;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    margin-top: 20px; /* Kontrol Et butonunun üstüne boşluk ekle */
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-custom:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.4);
+}
+
+.custom-file-input::file-selector-button {
+    font-family: 'Ubuntu', sans-serif; /* İstediğin font ismini buraya yazabilirsin */
+    font-size: 1rem; /* Font boyutunu ayarlayabilirsin */
+    color: #ffffff; /* Font rengini ayarlayabilirsin */
+    background-color: #333; /* Arka plan rengini değiştirebilirsin */
+    border-radius: 5px; /* Köşeleri yuvarlak yapabilirsin */
+    padding: 8px 12px; /* Butonun içine boşluk ekleyebilirsin */
+    margin-top: 20px; /* Kontrol Et butonunun üstüne boşluk ekle */
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.back-button:hover {
+    background-color: #434372;
+    transform: translateX(-5px);
+}
+
+.back-button::before {
+    margin-right: 10px; /* Ok ile yazı arasındaki boşluğu arttır */
+    font-size: 1.5rem; /* Ok işaretinin boyutu */
+}
+
+.back-button {
+        font-size: 1.3rem; /* Geri butonunun boyutu küçültüldü */
+    }
+
+/* waiting.html için ek stiller */
+
+/* Form container içeriği ortalama */
+.form-container {
+    text-align: center;
+}
+
+/* Buton stilleri */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+
+/* Responsive tasarım */
+@media (max-width: 576px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-custom {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+=======
+/* Genel ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2c2c;
+    color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex; /* Flexbox kullan */
+    flex-direction: column; /* Dikey hizalama */
+    justify-content: center; /* İçerikleri dikey ortala */
+    align-items: center; /* İçerikleri yatay ortala */
+    min-height: 400px; /* Minimum yükseklik ekle, isteğe bağlı */
+}
+
+.form-container form {
+    display: flex; /* Flexbox kullan */
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* Ortada durma */
+}
+
+.form-container .form-label,
+.form-container .form-control,
+.form-container .btn-custom {
+    width: 100%; /* Elemanları genişlet */
+    max-width: 400px; /* Elemanların maksimum genişliği */
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 50px; /* Başlık altına boşluk ekle */
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #b3b3b3;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.custom-file-input {
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #2a2a2a;
+    color: #b3b3b3;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.custom-file-input:focus {
+    border-color: #28a745;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    margin-top: 20px; /* Kontrol Et butonunun üstüne boşluk ekle */
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-custom:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.4);
+}
+
+.custom-file-input::file-selector-button {
+    font-family: 'Ubuntu', sans-serif; /* İstediğin font ismini buraya yazabilirsin */
+    font-size: 1rem; /* Font boyutunu ayarlayabilirsin */
+    color: #ffffff; /* Font rengini ayarlayabilirsin */
+    background-color: #333; /* Arka plan rengini değiştirebilirsin */
+    border-radius: 5px; /* Köşeleri yuvarlak yapabilirsin */
+    padding: 8px 12px; /* Butonun içine boşluk ekleyebilirsin */
+    margin-top: 20px; /* Kontrol Et butonunun üstüne boşluk ekle */
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.back-button:hover {
+    background-color: #434372;
+    transform: translateX(-5px);
+}
+
+.back-button::before {
+    margin-right: 10px; /* Ok ile yazı arasındaki boşluğu arttır */
+    font-size: 1.5rem; /* Ok işaretinin boyutu */
+}
+
+.back-button {
+        font-size: 1.3rem; /* Geri butonunun boyutu küçültüldü */
+    }
+
+/* waiting.html için ek stiller */
+
+/* Form container içeriği ortalama */
+.form-container {
+    text-align: center;
+}
+
+/* Buton stilleri */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+
+/* Responsive tasarım */
+@media (max-width: 576px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-custom {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+>>>>>>> 655e618224a9464c98edb249cf3aa322a2de8297
